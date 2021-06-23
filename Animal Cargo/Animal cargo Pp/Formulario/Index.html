@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos/Estilos.css">
+</head>
+<body background="Estilos/img\Hueso.png">
+    <header>
+        <nav class="Menu">
+            <ul>
+                <li><a href="../Animal  Carpeta Galeria/index.html">Galeria</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Animal cargo CA/index.html">Como Adoptar</a></li>
+                <li><a href="Index.html">Adoptame</a></li>
+            </ul>
+    
+        </nav>
+            <section class="text-header">
+                <h1>Mascotas y compañeros  para la vida</h1>
+                <h2>Adoptame</h2>
+            </section>
+            <div class= "wave" style ="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        
+        </header> 
+<section class="Anuncio">
+           <aside>
+               <img src="../Formulario/Estilos/img/Anuncio.jpeg" alt="">
+           </aside>
+       </section>
+    <div class = "form">
+       
+ 
+       <form action="Guardar.php" method="POST">
+
+        <label for="nombre"><center>Su nombre</center></label>
+         <br>
+         <input type="text" name="nombre" placeholder="nombre" required ="">
+         
+         <label for="Edad"><center>Su edad</center></label>
+         <br>
+         <input type="number" name="Edad" placeholder="Edad" required ="">
+         
+         <label for="Numero de telefono"><center>Su numero telefonico</center></label>
+         <br>
+         <input type="text" name="Numero_de_telefono" placeholder="Numero telefonico" required ="">
+         
+         <label for="Direccion"><center>Su Direccion</center></label>
+         <br>
+         <input type="text" name="Direccion" placeholder="Direccion" required ="">
+
+         <label for="cedula"><center>Su Cedula</center></label>
+         <br>
+         <input type="text" name="cedula" placeholder="Cedula" required ="">
+
+         <label for="Animal" class="form-label" > <center>Animal a Adoptar</center></label>
+         <br>
+         <input class="form-control" name="Animal" list="datalistOptions"   placeholder="Animal para Adoptar" required ="">
+         <datalist id="datalistOptions">
+           <option value="Perro(pastores alemanes)">
+           <option value="Gato(American wirehair)">
+           <option value="Hamster(manchado)">
+           <option value="Aves(cotorra argentina)">
+           <option value="Pez(dorado)">
+            <option value="Tortuga (Mapa de Barbour)">
+         </datalist>
+
+         <label for="Porque"><center>Porque lo quieres adoptar?</center></label>
+         <br>
+         <input type="text" name="Porque" placeholder="Porque" required ="">
+         
+         
+         <br>
+         <br>
+         <br>
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Borrar">
+       </div>
+
+       
+
+       <footer>
+        <div class="contenedor-footer">
+            <div class="contenedor-foo">
+                <h4>Telefono</h4>
+                <p>849-885-4442</p>
+            </div>
+            <div class="contenedor-foo">
+             <h4>email</h4>
+             <p>Jhomiro018@gmail.com</p>
+         </div>
+         <div class="contenedor-foo">
+             <h4>Ubicación</h4>
+             <p>calle buenos aires/los alcarrizos/santiago</p>
+         </div>
+        </div>
+        <h2 class="titulo-final">&copy; Jhon hairon jiménez #7</h2>
+    </footer>
+
+</body>
+</html>

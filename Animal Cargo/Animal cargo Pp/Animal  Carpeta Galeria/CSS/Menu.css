@@ -1,0 +1,23 @@
+.Menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.Menu li{
+    text-align: center;
+    flex-grow: 1;
+    border: 1px solid #fff;
+}
+
+.Menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Menu li:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
